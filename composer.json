@@ -1,0 +1,19 @@
+{
+  "name": "emartech/json-formatter",
+  "description": "extended json formatter for monolog to log exceptions properly",
+  "minimum-stability": "stable",
+  "license": "proprietary",
+  "require": {
+    "php": "~7.1",
+    "monolog/monolog": "^1.0"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^6.0"
+  },
+  "autoload": {
+    "psr-4": {"Emartech\\JsonFormatter\\": "src/"}
+  },
+  "scripts": {
+    "test": "vendor/bin/phpunit test/"
+  }
+}
