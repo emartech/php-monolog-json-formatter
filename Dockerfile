@@ -1,4 +1,5 @@
 FROM php:7.1-cli
+RUN echo "short_open_tag=0" > /usr/local/etc/php/conf.d/disable_short_open_tag.ini
 
 RUN apt-get update
 RUN apt-get upgrade -y
