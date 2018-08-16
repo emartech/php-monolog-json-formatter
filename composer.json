@@ -2,7 +2,7 @@
   "name": "emartech/json-formatter",
   "description": "extended json formatter for monolog to log exceptions properly",
   "minimum-stability": "stable",
-  "license": "proprietary",
+  "license": "MIT",
   "require": {
     "php": "~7.1",
     "monolog/monolog": "^1.0"
